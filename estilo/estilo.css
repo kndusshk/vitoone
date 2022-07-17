@@ -1,0 +1,149 @@
+.header {
+    background: url(../imagenes/stationery-colorful-school-writing-tools-accessori-2021-08-28-19-06-12-utc.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+  }
+  .header .navbar {
+    background-color: transparent !important;
+  }
+  a.nav-link{
+    font-family: 'Allerta', sans-serif;
+    width: 110px;
+    font-weight: bold;
+    color:#ffffff;
+}
+
+.logo{
+    height: 51px;
+    width: 98px;
+    justify-content: flex-end;
+}
+.container-fluid{
+    display: flex;
+    justify-content: flex-end !important;
+}
+.texto1{
+    position: absolute;
+    font-family: 'Allerta', sans-serif;
+    width: 960px;
+    height: 110;
+    font-size: 36px;
+    text-align: center;
+    margin-left:150px;
+    top:190px;
+    line-height: 37px;
+    letter-spacing: 0.75px;
+    color: #ffffff;
+    font-weight: bolder;
+
+}
+.boton{
+    position: relative;
+    font-family: 'Allerta', sans-serif;
+    top: 355px;
+    width: 200px;
+    height: 60px;
+    left:40%;
+    right: 50%;
+    color: #EDDCA0;
+    background-color:#354248;
+}
+.categories,.products{
+    font-family: 'Allerta', sans-serif;
+    color:#000000;
+    text-align: center;
+    font-size: 48px;
+    letter-spacing: 0.75px;
+    line-height: 36px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+.row.segundo{
+    margin: 30px;
+}
+h5{
+    font-family: 'Allerta', sans-serif;
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: 0.75px;
+    line-height: 36px;
+}
+
+.card{
+    background-color: #D9D9D9;
+    border-radius: 15px;
+
+}
+.card-body{
+    padding: 0%;
+}
+.img-fluid.one{
+    border-radius: 15px;
+}
+.volante{
+        margin-top: 20px;
+        margin-right: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+.texto2{
+        position: absolute;
+        color:#ffffff;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        font-size: 24px;
+        top: 1250px;
+        line-height: 27.5px;
+        letter-spacing: 1.25px;
+        left:10px;
+        right: 10px;
+    
+}
+.muestrario{
+    width: 1094.76px;
+    height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+.card-body.dos{
+    background-color:#ffffff ;
+    border-radius: 0%;
+}
+.card-title1{
+    background-color: #ffffff;
+    font-size: 20px;
+    font-family: 'Allerta', sans-serif;
+    color:black;
+    text-align: center;
+    margin-top:10px;
+}
+footer{
+    background-image: url(../imagenes/ojala.jpg);
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+.logofooter{
+    height: 70px;
+    width: 110px;
+}
+.final{
+    font-size: 20px;
+    text-align: center;
+}
+.datos{
+    font-size: 16px;
+    font-family: 'Roboto';
+    margin-bottom: 5px;
+    margin-top: 0px;
+
+} 
+.logo1{
+    margin-top: 0px;
+}
