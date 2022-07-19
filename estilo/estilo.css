@@ -1,9 +1,23 @@
-.header {
-    background: url(../imagenes/stationery-colorful-school-writing-tools-accessori-2021-08-28-19-06-12-utc.jpg) no-repeat center;
+.showcase {
+    background: url(../imagenes/showcase.jpg) no-repeat center;
     background-size: cover;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
   }
-  .header .navbar {
+
+  .caja2 {
+    background: url('../imagenes/banner.jpg') no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  header .navbar {
     background-color: transparent !important;
   }
   a.nav-link{
@@ -13,38 +27,26 @@
     color:#ffffff;
 }
 
-.logo{
-    height: 51px;
-    width: 98px;
-    justify-content: flex-end;
-}
 .container-fluid{
     display: flex;
     justify-content: flex-end !important;
 }
-.texto1{
-    position: absolute;
-    font-family: 'Allerta', sans-serif;
-    width: 960px;
-    height: 110;
+
+#wrapper-texto-showcase p{
+    font-family: 'Allerta', sans-serif;    
     font-size: 36px;
     text-align: center;
-    margin-left:150px;
-    top:190px;
     line-height: 37px;
     letter-spacing: 0.75px;
     color: #ffffff;
     font-weight: bolder;
-
+    padding: 0 20% 10% 20%;
 }
+
 .boton{
-    position: relative;
     font-family: 'Allerta', sans-serif;
-    top: 355px;
     width: 200px;
     height: 60px;
-    left:40%;
-    right: 50%;
     color: #EDDCA0;
     background-color:#354248;
 }
@@ -62,12 +64,13 @@
 .row.segundo{
     margin: 30px;
 }
-h5{
+.card-body h5{
     font-family: 'Allerta', sans-serif;
     text-align: center;
     font-size: 36px;
     letter-spacing: 0.75px;
     line-height: 36px;
+    padding: 2%;
 }
 
 .card{
@@ -88,16 +91,14 @@ h5{
         padding-right: 0px;
     }
 .texto2{
-        position: absolute;
+        
         color:#ffffff;
         font-family: 'Roboto', sans-serif;
         text-align: center;
-        font-size: 24px;
-        top: 1250px;
+        font-size: 24px;        
         line-height: 27.5px;
         letter-spacing: 1.25px;
-        left:10px;
-        right: 10px;
+        
     
 }
 .muestrario{
@@ -146,4 +147,12 @@ footer{
 } 
 .logo1{
     margin-top: 0px;
+}
+
+#wrapper-texto-showcase{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow:1;
 }
